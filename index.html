@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tree View Creator</title>
+<link type="text/css" rel="stylesheet" href="jquery-ui-1.11.4/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="jquery-ui-1.11.4/tree-view.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="jquery-ui-1.11.4/tree-view.js"></script>
+</head>
+
+<body>
+
+<!--dialog boxes start -->
+<div id="generate-form" title="Generate Random Numbers" >
+  <p class="tips">Positive Numbers Only. Limit 15 Generated Numbers</p>
+ 
+  <form>
+    <fieldset>
+      <label for="count">Count</label>
+	  <input id="count" name="count" class="text ui-widget-content ui-spinner-input ui-corner-all">
+	  <button id="gen_button" "class=" gen_button ui-widget-content-a ui-widget ui-button" >Generate</button>
+	  <button id="delete_button" class="ui-widget-content-a ui-widget ui-button ">Delete Factory</button>
+      <!--<input type="text" name="count" id="count" class="text ui-widget-content ui-corner-all">-->
+ 
+      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+    </fieldset>
+  </form>
+</div>
+<!--dialog boxes end-->
+
+<section>
+	<article><button id="addFactory">New Factory</button></article>
+</section>
+
+<main>
+	<ul id="tree">
+		<li id="tree_dir_item"><img class="img"/><span class="root" title="">Root</span>
+			<ul id="root">
+			</ul>
+		</li>
+	</ul>
+</main>
+</body>
+</html> 

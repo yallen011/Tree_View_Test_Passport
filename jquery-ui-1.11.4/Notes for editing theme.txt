@@ -1,0 +1,7 @@
+- To get a bit more control over the look and feel, you may choose to start with the default theme (Smoothness) or a ThemeRoller-generated theme and then adjust the jquery-ui.theme.css file or any of the individual plugin stylesheets.
+
+- to add to project use the link and script tags and specify jquery-ui.css and jquery-iu.js
+ex.   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
