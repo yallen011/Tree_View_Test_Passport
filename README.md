@@ -5,5 +5,5 @@ This project uses HTML5, CSS3, and JQuery to create a persistent tree view
 
 -This Application can do the following</br>
 **add and delete nodes</br>
-**generate random numbers as children to added nodes using a min and a maximum number
-**persist current state after refresh
+**generate random numbers as children to added nodes using a min and a maximum number</br>
+**persist current state after refresh</br>
